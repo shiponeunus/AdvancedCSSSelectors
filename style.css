@@ -1,0 +1,25 @@
+
+.title{
+  font-family: Helvetica;
+  font-size: 1.6em;
+}
+h2{
+  font-size: 1.8em;
+}
+.comparison, .masaccio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comparison img{
+  display: flex;
+  flex-direction: row;
+  width: 50vmin;
+}
+
+.comparison + .masaccio{
+  display: flex;
+  flex-direction: column;
+  width: 40vmin;
+  margin-left: 20vmin;
+}
